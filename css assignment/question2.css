@@ -1,0 +1,27 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+.table__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.lunch {
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 0.2rem;
+  color: orangered;
+}
+
+table th {
+  background-color: blue;
+  color: white;
+}
+table td {
+  padding: 0.5rem 1rem;
+}
+.day {
+  font-weight: bold;
+  text-transform: capitalize;
+}
