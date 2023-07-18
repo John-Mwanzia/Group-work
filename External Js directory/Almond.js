@@ -1,9 +1,12 @@
-var personName = 'Almond Kiruthu. M';
-var regNumber = 'CS/MG/1970/09/21';
+let personName = 'Almond Kiruthu. M';
+let regNumber = 'CS/MG/1970/09/21';
+
+document.getElementById('myDetails').innerHTML =
+  personName + '<br /> ' + regNumber;
 
 //Write js code to find the largest among two numbers using the if-esle statement
-var num1 = 10;
-var num2 = 20;
+// let num1 = prompt('Enter the first number');
+// let num2 = prompt('Enter the second number');
 if (num1 > num2) {
   console.log('num1 is greater than num2');
 } else {
@@ -11,9 +14,9 @@ if (num1 > num2) {
 }
 
 //Write js code to find the largest among three numbers using the NESTED if statement
-var num3 = 10;
-var num4 = 20;
-var num5 = 30;
+// let num3 = prompt('Enter the first number');
+// let num4 = prompt('Enter the second number');
+// let num5 = prompt('Enter the third number');
 if (num3 > num4) {
   if (num3 > num5) {
     console.log('num3 is the largest');
@@ -29,7 +32,7 @@ if (num3 > num4) {
 }
 
 //Write js code to diplay the day of the week using if-else ladder
-var day = prompt('Enter a number between 1 and 7');
+// let day = prompt('Enter a number between 1 and 7');
 if (day == 1) {
   console.log('Sunday');
 } else if (day == 2) {
@@ -49,7 +52,7 @@ if (day == 1) {
 }
 
 //Write js code to diplay the day of the week using switch-case statement
-var yourDay = prompt('Enter a number between 1 and 7');
+// let yourDay = prompt('Enter a number between 1 and 7');
 switch (yourDay) {
   case '1':
     console.log('Sunday');
@@ -78,30 +81,28 @@ switch (yourDay) {
 }
 
 //Write a js code to find the sum of number 1-10 using a for-statement(Loop)
-var sum = 0;
-for (var i = 1; i <= 10; i++) {
+let sum = 0;
+for (let i = 1; i <= 10; i++) {
   sum += i;
 }
 console.log(sum);
 
 //Write a js code to find the sum of number 1-10 using a while-statement
-var total = 0;
-var i = 1;
-while (i <= 10) {
-  sum += i;
-  i++;
+let total = 0;
+let b = 1;
+while (b <= 10) {
+  sum += b;
+  b++;
 }
 
-return sum;
 console.log(sum);
 
 //Write a js code to find the sum of number 1-10 using a do-while-statement
-var sumOfNums = 0;
-var i = 1;
+let sumOfNums = 0;
+let c = 1;
 do {
-  sum += i;
-  i++;
-} while (i <= 10);
+  sum += c;
+  c++;
+} while (c <= 10);
 
-return sumOfNums;
 console.log(sumOfNums);
