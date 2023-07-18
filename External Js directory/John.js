@@ -1,6 +1,19 @@
 let personName = "John Mwanzia";
 let regNo = "CS/MG/3163/09/21";
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the <h1> element by its id
+    let detailsElement = document.getElementById('details');
+  
+    // Set the text content of the <h1> element to the person's name
+    detailsElement.textContent = personName;
+  });
+
+// document.getElementById("details").innerHTML = personName + "<br>" + regNo;
+
+
+
 // code to find the largest between two numbers
 let num1 = 10;
 let num2 = 20;

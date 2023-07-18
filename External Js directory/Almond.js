@@ -1,8 +1,16 @@
 let personName = 'Almond Kiruthu. M';
 let regNumber = 'CS/MG/1970/09/21';
 
-document.getElementById('myDetails').innerHTML =
-  personName + '<br /> ' + regNumber;
+// document.getElementById('myDetails').innerHTML =
+//   personName + '<br /> ' + regNumber;
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the <h1> element by its id
+  let detailsElement = document.getElementById('myDetails');
+
+  // Set the text content of the <h1> element to the person's name
+  detailsElement.textContent = personName;
+});
 
 //Write js code to find the largest among two numbers using the if-esle statement
 // let num1 = prompt('Enter the first number');
