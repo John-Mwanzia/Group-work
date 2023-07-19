@@ -2,3 +2,22 @@ body {
   font-family: "Inter", sans-serif;
   background: #030c45;
 }
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 8rem;
+  margin-left: 43rem;
+  position: absolute;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+.image1__holder {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
