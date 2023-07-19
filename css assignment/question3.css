@@ -1,0 +1,40 @@
+#logo {
+  max-width: 380px;
+  height: 95px;
+  background-image: url("https://www.kabarak.ac.ke/images/logos/Kabarak_University_logo_Cropped_355x100.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  opacity: 0.7;
+}
+table {
+  font-family: "Inter", sans-serif;
+}
+table td {
+  text-align: center;
+}
+.name,
+.school {
+  background-color: lightblue;
+}
+table th {
+  text-align: right;
+}
+caption h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 24px;
+}
+.photo {
+  border-radius: 10%;
+  width: 100%;
+}
+.image__data {
+  margin-right: 0;
+  padding: 0.8rem;
+}
+.photo__header {
+  width: 15%;
+}
+.address__header {
+  width: 30%;
+}
