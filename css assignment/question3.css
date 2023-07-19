@@ -19,6 +19,7 @@ table td {
 }
 table th {
   text-align: right;
+  padding: 0.5rem 1rem;
 }
 caption h1 {
   font-family: "Times New Roman", serif;
