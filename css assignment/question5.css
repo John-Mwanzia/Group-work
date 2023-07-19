@@ -1,0 +1,28 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.unit-list {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .unit-title {
+    list-style-type: none;
+    position: relative;
+    padding-left: 15px; /* Adjust the left padding as needed */
+  }
+  
+  .unit-title::before {
+    content: "➤"; /* Unicode arrow character or custom arrow icon */
+    position: absolute;
+    left: 0;
+  }
+  
+  .syllabus__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+  }
